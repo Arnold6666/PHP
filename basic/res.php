@@ -9,8 +9,22 @@
     // echo "<br>";
     // echo $_POST["phone"];
     // 表單中使用get僅有搜尋引擎與連結'
-    // extract($_POST);
+    extract($_POST);
     // echo $content;
-    $user = $_POST["user"];
-    $gender = $_POST["gender"];
+    
+    echo $user;
+    echo "<br>";
+    echo $mail;
+    echo "<br>";
+    echo $phone;
+    echo "<br>";
+    echo $gender;
+    echo "<br>";
+    echo $edu;
+    echo "<br>";
+    // 透過implode將陣列轉換成字串
+    echo implode(",",$interest);
+    echo "<br>";
+    echo $content;
+    echo "<br>";
 
