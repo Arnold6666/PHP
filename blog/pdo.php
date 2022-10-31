@@ -11,7 +11,7 @@ try {
    $pdo = new PDO($dsn,$db_user,$db_pw); //建立PDO實體
    // $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_SILENT); //不主動報錯
    $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING); //主動報錯
-   $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION); //主動報例外
+   // $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION); //主動報例外
 }catch(PDOException $e){
    echo $e->getMessage();
 }; 
