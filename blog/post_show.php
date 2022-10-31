@@ -15,6 +15,9 @@
     <div>
         <h2><?php echo $post["title"];?></h2>
         <div>
+            <?php //echo $post["c_title"];?>
+        </div>
+        <div>
             <?php echo $post["content"];?>
         </div>
         <div>
